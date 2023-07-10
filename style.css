@@ -6,13 +6,17 @@
 body {
     font-family: 'Inter', sans-serif;
 }
-
+/* banner part css */
 .banner-container {
-    background-color: #f5e3e7;
+    background-color: #A7216226;
     display: flex;
-    padding: 0 2%;
+    height: 850px;
+    padding: 2% 2% 0;
     justify-content: space-around;
     align-items: center;
+}
+.banner-container img{
+    margin-top: 50px;
 }
 
 .banner-content {
@@ -37,16 +41,92 @@ body {
 }
 
 button {
-    display: inline-flex;
     padding: 20px 43px;
-    align-items: flex-start;
-    gap: 10px;
     border-radius: 8px;
-    background: #E55473;
+    background-color: #E55473;
     border: none;
     color: #FFF;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    
+}
+
+/* feature flower part css */
+.feature-container{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 195px;
+}
+.feature-content{
+    text-align: center;
+    margin-top: 178px;
+}
+.feature-content h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 48px;
+}
+.card{
+    display: inline-block;
+    text-align: center;
+}
+.card-bg{
+    background-color: #A7216226;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+}
+.card-bg1{
+    background-color: #0597A026;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+}
+.card-bg2{
+    background-color: #477D1126;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+}
+
+.card-img{
+    padding: 110px 78px 0 76px;
+}
+.card-imga{
+    padding: 68px 78px 0 76px;
+}
+.card h4{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+/* hot deal part css */
+.hot-deal{
+    background-color: #E554730D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 620px;
+    border-radius: 8px;
+}
+.hot-deal-content{
+    text-align: center;
+    width: 594px;
+}
+.hot-deal-content h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-deal-content p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 24px 0 32px;
 }
