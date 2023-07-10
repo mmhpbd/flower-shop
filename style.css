@@ -162,3 +162,37 @@ button {
     font-weight: 400;
     padding: 24px 0 48px;
 }
+.instagram-img img{
+    margin-left: 24px;
+}
+/* get the deals part css */
+.get-the-deals{
+    background-image: url(img/rectangle9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 128px 240px;
+    height: 449px;
+    border-radius: 8px;
+    align-items: center;
+}
+.get-the-deals h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+.get-the-deals p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 16px 0 48px;
+}
+
+input[type=email]{
+    font-size: 16px;
+    border: none;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding-left: 15px;
+    margin-right: 10px;
+}
