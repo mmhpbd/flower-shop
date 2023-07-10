@@ -6,6 +6,7 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
 /* banner part css */
 .banner-container {
     background-color: #A7216226;
@@ -15,7 +16,8 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.banner-container img{
+
+.banner-container img {
     margin-top: 50px;
 }
 
@@ -51,57 +53,66 @@ button {
 }
 
 /* feature flower part css */
-.feature-container{
+.feature-container {
     padding: 0 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 195px;
 }
-.feature-content{
+
+.feature-content {
     text-align: center;
     margin-top: 178px;
 }
-.feature-content h1{
+
+.feature-content h1 {
     font-size: 40px;
     font-weight: 800;
 }
-.feature-content p{
+
+.feature-content p {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: 24px 0 48px;
 }
-.card{
+
+.card {
     display: inline-block;
     text-align: center;
 }
-.card-bg{
+
+.card-bg {
     background-color: #A7216226;
     border-radius: 300px 300px 0px 0px;
     width: 464px;
     height: 538px;
 }
-.card-bg1{
+
+.card-bg1 {
     background-color: #0597A026;
     border-radius: 300px 300px 0px 0px;
     width: 464px;
     height: 538px;
 }
-.card-bg2{
+
+.card-bg2 {
     background-color: #477D1126;
     border-radius: 300px 300px 0px 0px;
     width: 464px;
     height: 538px;
 }
 
-.card-img{
+.card-img {
     padding: 110px 78px 0 76px;
 }
-.card-imga{
+
+.card-imga {
     padding: 68px 78px 0 76px;
 }
-.card h4{
+
+.card h4 {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
@@ -109,7 +120,7 @@ button {
 }
 
 /* hot deal part css */
-.hot-deal{
+.hot-deal {
     background-color: #E554730D;
     display: flex;
     justify-content: space-evenly;
@@ -117,16 +128,37 @@ button {
     height: 620px;
     border-radius: 8px;
 }
-.hot-deal-content{
+
+.hot-deal-content {
     text-align: center;
     width: 594px;
 }
-.hot-deal-content h1{
+
+.hot-deal-content h1 {
     font-size: 40px;
     font-weight: 800;
 }
-.hot-deal-content p{
+
+.hot-deal-content p {
     font-size: 18px;
     font-weight: 400;
     padding: 24px 0 32px;
+}
+
+/* instagram part css */
+.instagram {
+    margin-top: 128px;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.instagram-content h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-content p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 24px 0 48px;
 }
