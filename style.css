@@ -162,11 +162,13 @@ button {
     font-weight: 400;
     padding: 24px 0 48px;
 }
-.instagram-img img{
+
+.instagram-img img {
     margin-left: 24px;
 }
+
 /* get the deals part css */
-.get-the-deals{
+.get-the-deals {
     background-image: url(img/rectangle9.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -175,18 +177,20 @@ button {
     border-radius: 8px;
     align-items: center;
 }
-.get-the-deals h1{
+
+.get-the-deals h1 {
     font-size: 40px;
     font-weight: 800;
     padding-top: 122px;
 }
-.get-the-deals p{
+
+.get-the-deals p {
     font-size: 18px;
     font-weight: 400;
     padding: 16px 0 48px;
 }
 
-input[type=email]{
+input[type=email] {
     font-size: 16px;
     border: none;
     width: 700px;
@@ -198,22 +202,25 @@ input[type=email]{
 }
 
 /* footer part css */
-.footer{
+.footer {
     background: #000;
     color: white;
     text-align: center;
 }
-.footer h1{
+
+.footer h1 {
     font-size: 48px;
     font-weight: 800;
     padding-top: 128px;
 }
-.footer-p{
+
+.footer-p {
     font-size: 18px;
     padding: 24px 0 32px;
     line-height: normal;
 }
-.footer-copyright{
+
+.footer-copyright {
     font-size: 16px;
     padding-bottom: 128px;
     color: #FFFFFF66;
