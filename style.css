@@ -200,6 +200,24 @@ input[type=email] {
     padding-left: 15px;
     margin-right: 10px;
 }
+/* customer feedback part css */
+.testimonial{
+    background-color: #fff2f5;
+    margin: 128px 240px;
+    height: 449px;
+    border-radius: 8px;
+    align-items: center;
+}
+.testimonial h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+    text-decoration-line: overline;
+}
+.testimonial h3{
+    font-weight: normal;
+    padding: 24px 0 48px;
+}
 
 /* footer part css */
 .footer {
